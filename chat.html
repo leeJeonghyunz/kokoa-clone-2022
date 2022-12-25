@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/The Undertaker - Welcome to Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No sevice</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- To do: Wifi Icon-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-sharp fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <div class="alt-header__title">The Undertaker</div>
+      </div>
+      <div class="alt-header__column">
+        <span>
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </span>
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img
+          src="https://w.namu.la/s/7ebe89a955a42b47c2b6e15ed15193e7b2fccdfdfe63e3da7df6e0048513b5fd834f32d22dc8f40fcc0ca88bd7d7027b56b3f6b351df64347c5977d5cea94e61ee60d73d1fd895b29531651da404ca6b234d8410238387015886ac25ca7e163d0d5b80730eb142568dfc8fe902edf79d"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">The Undertaker</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message_time">21:47</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Nice to meet you</span>
+            <span class="message_time">21:47</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply" action="">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message...." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/95282c79e9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
